@@ -5,7 +5,7 @@ class TimeSlot(models.Model):
     day = models.CharField(max_length=9)
     start = models.TimeField()
     stop = models.TimeField()
-    ids = models.JSONField()
+    ids = models.CharField(max_length=50)
 
 
     def __str__(self):
