@@ -1,3 +1,9 @@
 from django.contrib import admin
+from .models import TimeSlot
 
-# Register your models here.
+
+@admin.register(TimeSlot)
+class TimeSlotAdmin(admin.ModelAdmin):
+    list_display = ('day', 'start', 'stop', 'ids')
+    list_filter = ('day',)
+    search_fields = ('day', 'ids')
