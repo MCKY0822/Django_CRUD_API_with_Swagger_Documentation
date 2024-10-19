@@ -95,6 +95,3 @@ Create a simple Django application that implements a CRUD API (Create, Read, Upd
   - This endpoint requires a valid JWT token and returns a message indicating successful authentication.
 
 #
-
-# MICHAEL R. MONTAÑA
-michaelmontana@me.com
